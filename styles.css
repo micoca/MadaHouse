@@ -1,0 +1,119 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+header{
+    background-color: #18727d;
+    padding: 1em 0;
+}
+header h1{
+    color: #fffced;
+    font-size: 3.8em;
+    font-style: italic;
+    font-weight: 100;
+    display: inline-block;
+    position: static;
+    bottom: 30px;
+}
+nav{
+    background-color: #268697;
+    margin-bottom: 2.5em;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    width: 16.3%;
+}
+nav ul li a{
+    color: #fffced;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.2em;
+}
+nav ul li a:hover{
+    background-color: #3196a8;
+}
+footer{
+    background-color: #fffced;
+    clear: both;
+    color: #268697;
+    padding: 3em 0;
+    margin-top: 2em;
+    text-align: center;
+    position: relative;
+}
+nav ul li a.activo{
+    background-color: #328b9b;
+    text-align: center;
+}
+div button{
+    margin: 20px;
+}
+.columna{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0.6em;
+}
+.columna.left{
+    border-right: 1px solid #ffffff;
+}
+.columna.right p{
+    
+    text-align-last: center;
+    font-size: 0.9em;
+}
+.columna.right ul li{
+     font-size: 0.8em;
+     text-align: center;
+     color: black;
+
+}
+.formulario label{
+    vertical-align: top;
+    width: 25%;
+    display: inline-block;
+}
+.formulario input,
+.formulario textarea{
+    background-color: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding: 0.4em 0.6em;
+    font-size: 0.8em;
+    width: 70%;
+}
+.formulario input[type="submit"]{
+    background-color: #268697;
+    box-shadow: 0 0 10px rgba(0,0,0,0,4);
+    color: white;
+    font-size: 1em;
+    width: auto;
+    cursor: pointer;
+}
+.formulario textarea{
+    height: 10em;
+    resize: none;
+}
+.formulario .acciones{
+    text-align: center;
+}
+
+.text h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.carta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.title{
+    color: #18727d;
+}
